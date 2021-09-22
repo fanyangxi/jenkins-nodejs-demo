@@ -14,7 +14,7 @@ job('Aplicacion_Node.js_Docker_DSL') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('lBa3/nodeJSApp')
+            repositoryName('baiii/nodejsba3app')
             tag('${GIT_REVISION,length=7}')
             registryCredentials('docker-hub')
             forcePull(false)
