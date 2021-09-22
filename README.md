@@ -1,2 +1,3 @@
-# nodeJSApp
-app demos jenkins nodejs
+# nodejsapp
+
+Aplicación Hello-World en nodeJS simple
