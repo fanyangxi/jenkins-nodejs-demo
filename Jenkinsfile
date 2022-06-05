@@ -7,7 +7,7 @@ pipeline {
             {
                 script {
                     echo "INFO: Building docker image"
-                    sh "docker build -t jenkins-nodejs-demo:latest ."
+                    // sh "docker build -t jenkins-nodejs-demo:latest ."
                     echo "INFO: Building docker image, Done"
                 }
             }
